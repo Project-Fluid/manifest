@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Build -->
+  <project path="build/make" name="build" remote="fluid">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="fluid">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- External -->
+  <project path="external/roboto-fonts" name="external_roboto-fonts" remote="fluid" />
+  <project path="external/sqlite" name="external_sqlite" remote="fluid" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="fluid" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="fluid" />
+  <project path="frameworks/base" name="frameworks_base" remote="fluid" />
+  <project path="frameworks/native" name="frameworks_native" remote="fluid" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="fluid" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="fluid" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="fluid" />
+
+  <!-- General -->
+  <project path="bionic" name="bionic" remote="fluid" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="fluid" />
+  <project path="device/fluid/sepolicy" name="device_fluid_sepolicy" remote="fluid" />
+  <project path="manifest" name="manifest" remote="fluid" />
+  <project path="platform_testing" name="platform_testing" remote="fluid" />
+
+  <!-- Hardware -->
+  <project path="hardware/fluid/interfaces" name="hardware_fluid_interfaces" remote="fluid" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="fluid" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="fluid" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="fluid" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="fluid" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="fluid" />
+  <project path="packages/apps/Updates" name="packages_apps_Updater" remote="fluid" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="fluid" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="fluid" />
+
+  <!-- System -->
+  <project path="system/core" name="system_core" remote="fluid" />
+  <project path="system/netd" name="system_netd" remote="fluid" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="fluid" />
+  <project path="system/vold" name="system_vold" remote="fluid" />
+
+  <!-- Vendor -->
+  <project path="vendor/fluid" name="vendor_fluid" remote="fluid" />
+  
+  <!-- Lineage SDK -->
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="fluid" />
+
+</manifest>
