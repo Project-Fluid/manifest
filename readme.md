@@ -1,6 +1,22 @@
-# Syncing Fluid
+<p align="center">
+<img src="https://raw.githubusercontent.com/Project-Fluid/manifest/fluid-10/fluid.png" width="800px" height="318.74px" > 
+</p>
 
-To begit with you first have to initialize:
+Fluid Q
+===========
+Project Fluid is an attempt to make android experience much better and different from the regular AOSP standard.
+We are based on Lineage OS, and are very thankful to them as well as everyone else who helped Fluid. This a new User Experience and we hope you enjoy using Fluid!
+
+#stayfluid 
+
+Credits
+-------
+* [**TeamSubstratum (Theme Engine)**](https://github.com/Substratum)
+* [**LineageOS/Cyanogenmod**](https://github.com/LineageOS)
+
+# Setting up Fluid source
+
+To begin with you first have to initialize the repo:
 
 ```bash
 repo init -u https://github.com/Project-Fluid/manifest.git -b fluid-10
