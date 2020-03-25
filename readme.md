@@ -5,7 +5,7 @@
 Fluid Q
 ===========
 Project Fluid is an attempt to make android experience much better and different from the regular AOSP standard.
-We are based on Lineage OS, and are very thankful to them as well as everyone else who helped Fluid. This a new User Experience and we hope you enjoy using Fluid!
+We are very thankful to everyone else who helped Fluid. This a new User Experience and we hope you enjoy using Fluid!
 
 #stayfluid 
 
@@ -13,6 +13,7 @@ Credits
 -------
 * [**TeamSubstratum (Theme Engine)**](https://github.com/Substratum)
 * [**LineageOS/Cyanogenmod**](https://github.com/LineageOS)
+* [**Yodita**](https://gitlab.com/yodita)
 
 # Setting up Fluid source
 
