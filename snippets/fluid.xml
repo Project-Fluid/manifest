@@ -53,7 +53,7 @@
   <project path="system/core" name="system_core" remote="fluid" />
   <project path="system/netd" name="system_netd" remote="fluid" />
   <project path="system/sepolicy" name="system_sepolicy" remote="fluid" />
-  <project path="system/vold" name="system_vold" remote="fluid" />
+  <project path="system/void" name="system_void" remote="fluid" />
 
   <!-- Vendor -->
   <project path="vendor/fluid" name="vendor_fluid" remote="fluid" />
