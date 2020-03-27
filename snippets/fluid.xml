@@ -45,7 +45,6 @@
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="fluid" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="fluid" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="fluid" />
-  <project path="packages/apps/Updates" name="packages_apps_Updater" remote="fluid" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="fluid" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="fluid" />
 
@@ -57,8 +56,5 @@
 
   <!-- Vendor -->
   <project path="vendor/fluid" name="vendor_fluid" remote="fluid" />
-  
-  <!-- Lineage SDK -->
-  <project path="lineage-sdk" name="android_lineage-sdk" remote="fluid" />
 
 </manifest>
