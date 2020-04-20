@@ -47,6 +47,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="fluid" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="fluid" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="fluid" />
+  <project path="packages/apps/FluidCustomization" name="packages_apps_FluidCustomization" remote="fluid" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="fluid" />
