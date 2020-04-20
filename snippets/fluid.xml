@@ -56,5 +56,6 @@
 
   <!-- Vendor -->
   <project path="vendor/fluid" name="vendor_fluid" remote="fluid" />
+  <project path="vendor/themes" name="vendor_themes" remote="fluid" />
 
 </manifest>
