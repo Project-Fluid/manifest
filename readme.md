@@ -14,6 +14,7 @@ Credits
 * [**TeamSubstratum (Theme Engine)**](https://github.com/Substratum)
 * [**LineageOS/Cyanogenmod**](https://github.com/LineageOS)
 * [**Yodita**](https://gitlab.com/yodita)
+* [**ExtendedUI**](https://github.com/Extended-UI)
 
 # Setting up Fluid source
 
