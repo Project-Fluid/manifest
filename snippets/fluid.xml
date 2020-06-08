@@ -42,7 +42,6 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="fluid" />
-  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="fluid" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="fluid" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="fluid" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="fluid" />
