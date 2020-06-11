@@ -13,6 +13,7 @@ Credits
 -------
 * [**TeamSubstratum (Theme Engine)**](https://github.com/Substratum)
 * [**LineageOS/Cyanogenmod**](https://github.com/LineageOS)
+* [**MagmaProject**](https://github.com/MagmaProject)
 * [**Yodita**](https://gitlab.com/yodita)
 * [**ExtendedUI**](https://github.com/Extended-UI)
 
