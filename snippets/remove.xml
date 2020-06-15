@@ -113,6 +113,10 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/CertInstaller" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/DeskClock" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/r8" />
