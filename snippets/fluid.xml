@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="fgitlab"
+           fetch="https://gitlab.com/" />
+
   <!-- Build -->
   <project path="build/make" name="build" remote="fluid">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -62,5 +65,6 @@
   <!-- Vendor -->
   <project path="vendor/fluid" name="vendor_fluid" remote="fluid" />
   <project path="vendor/fextras" name="vendor_fextras" remote="fluid" />
+  <project path="vendor/gapps" name="project-fluid/vendor_gapps" remote="fgitlab" revision="fluid-10" clone-depth="1" />
 
 </manifest>
