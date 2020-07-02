@@ -43,6 +43,9 @@
   <!-- Hardware -->
   <project path="hardware/fluid/interfaces" name="hardware_fluid_interfaces" remote="fluid" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="fluid" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="fluid" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="fluid" revision="fluid-10-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="fluid" revision="fluid-10-legacy-um" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="fluid" />
