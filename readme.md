@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/Project-Fluid/manifest/fluid-10/fluid.png" width="800px" height="318.74px" > 
+<img src="https://raw.githubusercontent.com/Project-Fluid/manifest/fluid-10/fluid.png" width="800px" height="266.67px" > 
 </p>
 
 Fluid Q
