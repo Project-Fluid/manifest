@@ -120,8 +120,8 @@
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/r8" />
-  <remote-project name="platform/prebuilts/build-tools"
-
+  <remote-project name="platform/prebuilts/build-tools" />
+ 
   <!-- System --> 
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/keymaster" />
