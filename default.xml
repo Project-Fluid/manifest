@@ -13,7 +13,7 @@
            revision="fluid-10" />
 
   <default  remote="aosp"
-			revision="refs/tags/android-10.0.0_r40"
+			revision="refs/tags/android-10.0.0_r41"
 			sync-c="true"
             sync-j="4" />
 
