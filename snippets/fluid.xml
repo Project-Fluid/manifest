@@ -23,9 +23,6 @@
   <!-- Device -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="fluid" />
 
-  <!-- Hardware -->
-  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="fluid" />
-
   <!-- Frameworks -->
   <project path="frameworks/base" name="frameworks_base" remote="fluid" />
 
