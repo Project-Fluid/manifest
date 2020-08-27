@@ -800,4 +800,7 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
+  <!-- Add ProjectFluid repos -->
+  <include name="snippets/fluid.xml" />
+
 </manifest>
