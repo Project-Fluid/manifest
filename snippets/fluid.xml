@@ -26,7 +26,8 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="fluid" />
-  <project path="packages/apps/FluidCustomization" name="packages_apps_FluidCustomization" remote="fluid" revision="fluid-10"/>
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="fluid" revision="fluid-10" />
+  <project path="packages/apps/FluidCustomization" name="packages_apps_FluidCustomization" remote="fluid" revision="fluid-10" />
 
   <!-- System repos -->
   <project path="system/sepolicy" name="system_sepolicy" remote="fluid" />
