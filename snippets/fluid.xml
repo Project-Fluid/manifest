@@ -20,6 +20,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <!-- Device -->
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="fluid" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="frameworks_base" remote="fluid" />
