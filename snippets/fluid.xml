@@ -8,6 +8,17 @@
   <!-- rootdir -->
   <project path="manifest" name="Project-Fluid/manifest" remote="Project-Fluid" />
 
+  <!-- build -->
+  <project path="build/make" name="Project-Fluid/build" groups="pdk" remote="Project-Fluid" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
   <!-- frameworks -->
   <project path="frameworks/base" name="Project-Fluid/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="Project-Fluid" />
 
