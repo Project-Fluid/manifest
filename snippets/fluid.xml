@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="Project-Fluid"
+           fetch="https://github.com/"
+           revision="fluid-11" />
+
+</manifest>
