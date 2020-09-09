@@ -5,6 +5,9 @@
            fetch="https://github.com/"
            revision="fluid-11" />
 
+  <!-- rootdir -->
+  <project path="manifest" name="Project-Fluid/manifest" remote="Project-Fluid" />
+
   <!-- frameworks -->
   <project path="frameworks/base" name="Project-Fluid/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="Project-Fluid" />
 
