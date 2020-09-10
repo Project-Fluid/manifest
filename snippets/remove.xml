@@ -9,6 +9,7 @@
   <remove-project name="platform/frameworks/base" />
 
   <!-- hardware -->
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/bt" />
