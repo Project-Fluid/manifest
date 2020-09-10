@@ -6,6 +6,7 @@
            revision="fluid-11" />
 
   <!-- rootdir -->
+  <project path="bionic" name="Project-Fluid/bionic" groups="pdk" remote="Project-Fluid" />
   <project path="manifest" name="Project-Fluid/manifest" remote="Project-Fluid" />
 
   <!-- build -->
