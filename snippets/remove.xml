@@ -4,6 +4,9 @@
   <!-- rootdir -->
   <remove-project name="platform/bionic" />
 
+  <!-- bootable -->
+  <remove-project name="platform/bootable/recovery" />
+
   <!-- build -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
