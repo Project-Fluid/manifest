@@ -3,6 +3,7 @@
 
   <!-- build -->
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
 
   <!-- frameworks -->
   <remove-project name="platform/frameworks/base" />

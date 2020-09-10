@@ -18,6 +18,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/soong" name="Project-Fluid/build_soong" groups="pdk,tradefed" remote="Project-Fluid" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 
   <!-- frameworks -->
   <project path="frameworks/base" name="Project-Fluid/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="Project-Fluid" />
