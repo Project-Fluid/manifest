@@ -29,6 +29,7 @@
   </project>
 
   <!-- device -->
+  <project path="device/fluid/sepolicy" name="Project-Fluid/device_fluid_sepolicy" remote="Project-Fluid" />
   <project path="device/qcom/sepolicy" name="Project-Fluid/device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="Project-Fluid" />
   <project path="device/qcom/sepolicy-legacy" name="Project-Fluid/device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="fluid-11-legacy" remote="Project-Fluid" />
   <project path="device/qcom/sepolicy-legacy-um" name="Project-Fluid/device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="fluid-11-legacy-um" remote="Project-Fluid" />
