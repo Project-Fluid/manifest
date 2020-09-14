@@ -42,6 +42,9 @@
   <project path="hardware/libhardware_legacy" name="Project-Fluid/hardware_libhardware_legacy" groups="pdk" remote="Project-Fluid" />
   <project path="hardware/lineage/interfaces" name="Project-Fluid/hardware_lineage_interfaces" remote="Project-Fluid" />
 
+  <!-- system -->
+  <project path="system/core" name="Project-Fluid/system_core" groups="pdk" remote="Project-Fluid" />
+
   <!-- vendor -->
   <project path="vendor/fluid" name="Project-Fluid/vendor_fluid" remote="Project-Fluid" />
 

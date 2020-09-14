@@ -27,4 +27,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
 
+  <!-- system -->
+  <remove-project name="platform/system/core" />
+
 </manifest>
