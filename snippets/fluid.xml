@@ -5,6 +5,10 @@
            fetch="https://github.com/"
            revision="fluid-11" />
 
+  <remote  name="Project-Fluid-Devices"
+           fetch="https://github.com/Project-Fluid-Devices"
+           revision="fluid-11" />
+
   <!-- rootdir -->
   <project path="bionic" name="Project-Fluid/bionic" groups="pdk" remote="Project-Fluid" />
   <project path="lineage-sdk" name="Project-Fluid/lineage-sdk" remote="Project-Fluid" />
