@@ -49,6 +49,11 @@
   <project path="hardware/libhardware" name="Project-Fluid/hardware_libhardware" groups="pdk" remote="Project-Fluid" />
   <project path="hardware/libhardware_legacy" name="Project-Fluid/hardware_libhardware_legacy" groups="pdk" remote="Project-Fluid" />
   <project path="hardware/lineage/interfaces" name="Project-Fluid/hardware_lineage_interfaces" remote="Project-Fluid" />
+  <project path="hardware/qcom-caf/msm8996/display" name="Project-Fluid/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-msm8996" remote="Project-Fluid" />
+  <project path="hardware/qcom-caf/msm8998/display" name="Project-Fluid/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-msm8998" remote="Project-Fluid" />
+  <project path="hardware/qcom-caf/sdm845/display" name="Project-Fluid/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-sdm845" remote="Project-Fluid" />
+  <project path="hardware/qcom-caf/sm8150/display" name="Project-Fluid/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-sm8150" remote="Project-Fluid" />
+  <project path="hardware/qcom-caf/sm8250/display" name="Project-Fluid/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-sm8250" remote="Project-Fluid" />
 
   <!-- system -->
   <project path="system/core" name="Project-Fluid/system_core" groups="pdk" remote="Project-Fluid" />
