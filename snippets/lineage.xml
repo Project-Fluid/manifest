@@ -88,6 +88,9 @@
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="LineageOS" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-17.1-caf" remote="LineageOS" />
 
+  <!-- prebuilts -->
+  <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="LineageOS" />
+
   <!-- system -->
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="LineageOS" />
 
