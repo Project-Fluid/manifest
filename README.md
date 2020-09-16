@@ -2,7 +2,7 @@
 
 Fluid
 ===========
-Project Fluid is an attempt to make android experience much better and different from the regular AOSP standard.
+Project Fluid is an attempt to make the Android experience much better and different from the regular AOSP standard.
 We are very thankful to everyone else who helped Fluid. This a new User Experience and we hope you enjoy using Fluid!
 
 #FeelsFluid 
@@ -20,7 +20,7 @@ Credits
 To begin with you first have to initialize the repo:
 
 ```bash
-repo init -u https://github.com/Project-Fluid/manifest.git -b rebase
+repo init -u https://github.com/Project-Fluid/manifest.git -b fluid-10
 ```
 
 Then sync it up:
@@ -30,7 +30,7 @@ repo sync --force-sync --no-tags --no-clone-bundle -j$(nproc --all)
 ```
 
 <b>Note: 
-- You must have atleast 120-150GB free space on your disk 
+- You must have at least 120-150GB free space on your disk 
 - Basic git knowedge</b>
 
 Building Fluid
