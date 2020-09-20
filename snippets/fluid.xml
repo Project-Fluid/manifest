@@ -3,10 +3,10 @@
 
   <remote name="fluid"
           fetch="https://github.com/Project-Fluid"
-          revision="rebase" />
+          revision="fluid-10" />
 
   <!-- General repos -->
-  <project path="manifest" name="manifest" remote="fluid" revision="fluid-10"/>
+  <project path="manifest" name="manifest" remote="fluid" />
   <project path="build/make" name="build" remote="fluid">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -28,7 +28,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="fluid" />
-  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="fluid" revision="fluid-10" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="fluid" />
   <project path="packages/apps/FluidCustomization" name="packages_apps_FluidCustomization" remote="fluid" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="fluid" />
 
@@ -40,6 +40,6 @@
 
   <!-- Vendor -->
   <project path="vendor/aosp" name="vendor_fluid" remote="fluid" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="fluid" revision="fluid-10"/>
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="fluid" />
 
 </manifest>
