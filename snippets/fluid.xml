@@ -38,6 +38,9 @@
   <project path="device/qcom/sepolicy-legacy" name="Project-Fluid/device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="fluid-11-legacy" remote="Project-Fluid" />
   <project path="device/qcom/sepolicy-legacy-um" name="Project-Fluid/device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="fluid-11-legacy-um" remote="Project-Fluid" />
 
+  <!-- external -->
+  <project path="external/selinux" name="Project-Fluid/external_selinux" groups="pdk" remote="Project-Fluid" />
+
   <!-- fluid -->
   <project path="fluid/official_devices" name="Project-Fluid-Devices/official_devices" revision="master" remote="Project-Fluid" />
   <project path="fluid/Project-Fluid.github.io" name="Project-Fluid/Project-Fluid.github.io" revision="master" remote="Project-Fluid" />

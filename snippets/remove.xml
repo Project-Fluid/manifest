@@ -11,6 +11,9 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
 
+  <!-- external -->
+  <remove-project name="platform/external/selinux" />
+
   <!-- frameworks -->
   <remove-project name="platform/frameworks/base" />
 
