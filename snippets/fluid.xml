@@ -40,6 +40,7 @@
 
   <!-- external -->
   <project path="external/selinux" name="Project-Fluid/external_selinux" groups="pdk" remote="Project-Fluid" />
+  <project path="external/tinycompress" name="Project-Fluid/external_tinycompress" groups="pdk" remote="Project-Fluid" />
 
   <!-- fluid -->
   <project path="fluid/official_devices" name="Project-Fluid-Devices/official_devices" revision="master" remote="Project-Fluid" />
