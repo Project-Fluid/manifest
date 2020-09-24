@@ -60,6 +60,7 @@
   <project path="system/core" name="Project-Fluid/system_core" groups="pdk" remote="Project-Fluid" />
 
   <!-- vendor -->
+  <project path="vendor/fextras" name="Project-Fluid/vendor_fextras" remote="Project-Fluid" />
   <project path="vendor/fluid" name="Project-Fluid/vendor_fluid" remote="Project-Fluid" />
 
 </manifest>
