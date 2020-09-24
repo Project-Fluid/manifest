@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="Project-Fluid"
-           fetch="https://github.com/"
+  <remote  name="fluid"
+           fetch="https://github.com/Project-Fluid/"
            revision="fluid-11" />
 
-  <remote  name="Project-Fluid-Devices"
-           fetch="https://github.com/Project-Fluid-Devices"
+  <remote  name="fluid-devices"
+           fetch="https://github.com/Project-Fluid-Devices/"
            revision="fluid-11" />
 
   <!-- rootdir -->
-  <project path="bionic" name="Project-Fluid/bionic" groups="pdk" remote="Project-Fluid" />
-  <project path="lineage-sdk" name="Project-Fluid/lineage-sdk" remote="Project-Fluid" />
-  <project path="manifest" name="Project-Fluid/manifest" remote="Project-Fluid" />
+  <project path="bionic" name="bionic" groups="pdk" remote="fluid" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="fluid" />
+  <project path="manifest" name="manifest" remote="fluid" />
 
   <!-- bootable -->
-  <project path="bootable/recovery" name="Project-Fluid/bootable_recovery" groups="pdk" remote="Project-Fluid" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="fluid" />
 
   <!-- build -->
-  <project path="build/make" name="Project-Fluid/build" groups="pdk" remote="Project-Fluid" >
+  <project path="build/make" name="build" groups="pdk" remote="fluid" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -27,40 +27,40 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="Project-Fluid/build_soong" groups="pdk,tradefed" remote="Project-Fluid" >
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="fluid" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <!-- device -->
-  <project path="device/fluid/sepolicy" name="Project-Fluid/device_fluid_sepolicy" remote="Project-Fluid" />
-  <project path="device/qcom/sepolicy" name="Project-Fluid/device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="Project-Fluid" />
-  <project path="device/qcom/sepolicy-legacy" name="Project-Fluid/device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="fluid-11-legacy" remote="Project-Fluid" />
-  <project path="device/qcom/sepolicy-legacy-um" name="Project-Fluid/device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="fluid-11-legacy-um" remote="Project-Fluid" />
+  <project path="device/fluid/sepolicy" name="device_fluid_sepolicy" remote="fluid" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="fluid" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="fluid-11-legacy" remote="fluid" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="fluid-11-legacy-um" remote="fluid" />
 
   <!-- external -->
-  <project path="external/selinux" name="Project-Fluid/external_selinux" groups="pdk" remote="Project-Fluid" />
-  <project path="external/tinycompress" name="Project-Fluid/external_tinycompress" groups="pdk" remote="Project-Fluid" />
+  <project path="external/selinux" name="external_selinux" groups="pdk" remote="fluid" />
+  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="fluid" />
 
   <!-- fluid -->
-  <project path="fluid/official_devices" name="Project-Fluid-Devices/official_devices" revision="master" remote="Project-Fluid" />
-  <project path="fluid/Project-Fluid.github.io" name="Project-Fluid/Project-Fluid.github.io" revision="master" remote="Project-Fluid" />
+  <project path="fluid/official_devices" name="official_devices" revision="master" remote="fluid-devices" />
+  <project path="fluid/Project-Fluid.github.io" name="Project-Fluid.github.io" revision="master" remote="fluid" />
 
   <!-- frameworks -->
-  <project path="frameworks/base" name="Project-Fluid/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="Project-Fluid" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fluid" />
 
   <!-- hardware -->
-  <project path="hardware/libhardware" name="Project-Fluid/hardware_libhardware" groups="pdk" remote="Project-Fluid" />
-  <project path="hardware/libhardware_legacy" name="Project-Fluid/hardware_libhardware_legacy" groups="pdk" remote="Project-Fluid" />
-  <project path="hardware/lineage/interfaces" name="Project-Fluid/hardware_lineage_interfaces" remote="Project-Fluid" />
-  <project path="hardware/qcom-caf/sdm845/display" name="Project-Fluid/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-sdm845" remote="Project-Fluid" />
-  <project path="hardware/qcom-caf/sm8250/display" name="Project-Fluid/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-sm8250" remote="Project-Fluid" />
+  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="fluid" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="fluid" />
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="fluid" />
+  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-sdm845" remote="fluid" />
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-sm8250" remote="fluid" />
 
   <!-- system -->
-  <project path="system/core" name="Project-Fluid/system_core" groups="pdk" remote="Project-Fluid" />
+  <project path="system/core" name="system_core" groups="pdk" remote="fluid" />
 
   <!-- vendor -->
-  <project path="vendor/fextras" name="Project-Fluid/vendor_fextras" remote="Project-Fluid" />
-  <project path="vendor/fluid" name="Project-Fluid/vendor_fluid" remote="Project-Fluid" />
+  <project path="vendor/fextras" name="vendor_fextras" remote="fluid" />
+  <project path="vendor/fluid" name="vendor_fluid" remote="fluid" />
 
 </manifest>
