@@ -43,7 +43,7 @@
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="fluid" />
 
   <!-- fluid -->
-  <project path="fluid/official_devices" name="Project-Fluid-Devices/official_devices" revision="master" remote="fluid-devices" />
+  <project path="fluid/official_devices" name="official_devices" revision="master" remote="fluid-devices" />
   <project path="fluid/Project-Fluid.github.io" name="Project-Fluid.github.io" revision="master" remote="fluid" />
 
   <!-- frameworks -->
