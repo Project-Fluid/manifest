@@ -29,7 +29,7 @@
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="fluid" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="fluid" />
-  <project path="packages/apps/FluidCustomization" name="packages_apps_FluidCustomization" remote="fluid" />
+  <project path="packages/apps/FluidCustomization" name="packages_apps_FluidCustomisation" remote="fluid" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="fluid" />
 
   <!-- System repos -->
