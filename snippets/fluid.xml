@@ -59,16 +59,19 @@
   <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-sdm845" remote="fluid" />
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-sm8150" remote="fluid" />
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-sm8250" remote="fluid" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="fluid" />
 
   <!-- packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" revision="fluid-11" remote="fluid" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" revision="fluid-11" remote="fluid" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" revision="fluid-11" remote="fluid" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" revision="fluid-11" remote="fluid" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" revision="fluid-11" remote="fluid" />
 
   <!-- system -->
   <project path="system/core" name="system_core" groups="pdk" remote="fluid" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="fluid" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="fluid" />
 
   <!-- vendor -->
   <project path="vendor/fextras" name="vendor_fextras" remote="fluid" />

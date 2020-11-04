@@ -31,15 +31,17 @@
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/interfaces" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/bt" />
-
+  <remove-project name="platform/system/vold" />
 </manifest>
