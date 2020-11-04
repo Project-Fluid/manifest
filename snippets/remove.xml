@@ -10,6 +10,7 @@
   <!-- build -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/build/blueprint" />
 
   <!-- device -->
   <remove-project name="device/amlogic/yukawa" />

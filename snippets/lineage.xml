@@ -12,6 +12,9 @@
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="qcom,pdk-qcom" remote="LineageOS" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,pdk-qcom" remote="LineageOS" />
 
+  <!-- Build -->
+  <project path="build/blueprint" name="LineageOS/android_build_blueprint" remote="LineageOS" revision="lineage-18.0" />
+
   <!-- hardware -->
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="LineageOS" />
   <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk-qcom" remote="LineageOS" />
