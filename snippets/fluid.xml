@@ -35,6 +35,7 @@
   <!-- Device -->
   <project path="device/fluid/sepolicy" name="device_fluid_sepolicy" remote="fluid" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="fluid" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="fluid" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="fluid-11-legacy" remote="fluid" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="fluid-11-legacy-um" remote="fluid" />
 
