@@ -72,6 +72,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="fluid" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="fluid" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="fluid" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="fluid" />
 
   <!-- Vendor -->
   <project path="vendor/fextras" name="vendor_fextras" remote="fluid" />
