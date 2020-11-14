@@ -5,6 +5,10 @@
            fetch="https://github.com/Project-Fluid/"
            revision="fluid-11" />
 
+  <remote  name="fluid-gitlab"
+           fetch="https://gitlab.com/project-fluid/"
+           revision="fluid-11" />
+
   <remote  name="fluid-devices"
            fetch="https://github.com/Project-Fluid-Devices/"
            revision="fluid-11" />
@@ -42,6 +46,7 @@
   <!-- External -->
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="fluid" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="fluid" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="fluid-gitlab" />
 
   <!-- Fluid -->
   <project path="fluid/official_devices" name="official_devices" revision="master" remote="fluid-devices" />
