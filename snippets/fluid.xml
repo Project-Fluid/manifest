@@ -69,6 +69,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="fluid" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="fluid" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="fluid" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="fluid" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="fluid" />
