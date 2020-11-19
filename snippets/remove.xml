@@ -67,6 +67,7 @@
   <!-- frameworks -->
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/av" />
 
   <!-- hardware -->
   <remove-project name="platform/hardware/libhardware" />
