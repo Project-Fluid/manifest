@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- rootdir -->
+  <!-- Rootdir -->
   <remove-project name="platform/bionic" />
 
-  <!-- bootable -->
+  <!-- Bootable -->
   <remove-project name="platform/bootable/recovery" />
 
-  <!-- build -->
+  <!-- Build -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />
 
-  <!-- device -->
+  <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/generic/opengl-transport" />
@@ -60,17 +59,17 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
-  <!-- external -->
+  <!-- External -->
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
-  <!-- frameworks -->
+  <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/opt/telephony" />
 
-  <!-- hardware -->
+  <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/audio" />
@@ -84,7 +83,7 @@
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/interfaces" />
 
-  <!-- packages -->
+  <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
@@ -93,7 +92,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
 
-  <!-- prebuilts -->
+  <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
@@ -101,7 +100,7 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 
-  <!-- system -->
+  <!-- System -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/bt" />
