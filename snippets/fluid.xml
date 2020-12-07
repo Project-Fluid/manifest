@@ -80,6 +80,7 @@
     <linkfile src="res" dest="packages/apps/Settings/res-customisation" />
     <linkfile src="src" dest="packages/apps/Settings/src_customisation" />
   </project>
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="fluid" />
 
   <!-- System -->
   <project path="system/core" name="system_core" groups="pdk" remote="fluid" />
