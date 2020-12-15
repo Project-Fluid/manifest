@@ -838,8 +838,6 @@
 
   <include name="snippets/fluid.xml" />
 
-  <include name="snippets/temporary.xml" />
-
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
 </manifest>
