@@ -59,14 +59,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="fluid" />
 
   <!-- Hardware -->
-  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="fluid" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="fluid" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="fluid" />
-  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-msm8996" remote="fluid" />
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-msm8998" remote="fluid" />
-  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-sdm845" remote="fluid" />
-  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-sm8150" remote="fluid" />
-  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="fluid-11-caf-sm8250" remote="fluid" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="fluid" />
 
   <!-- Packages -->
@@ -92,6 +85,4 @@
   <!-- Vendor -->
   <project path="vendor/fextras" name="vendor_fextras" remote="fluid" />
   <project path="vendor/fluid" name="vendor_fluid" remote="fluid" />
-  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="fluid" />
-
 </manifest>
