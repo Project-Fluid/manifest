@@ -85,4 +85,5 @@
   <!-- Vendor -->
   <project path="vendor/fextras" name="vendor_fextras" remote="fluid" />
   <project path="vendor/fluid" name="vendor_fluid" remote="fluid" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="fluid-gitlab" clone-depth="1" />
 </manifest>
