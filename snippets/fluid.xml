@@ -69,6 +69,7 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="fluid" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="fluid" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="fluid" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="fluid" />
   <project path="packages/apps/FluidCustomisation" name="packages_apps_FluidCustomisation" remote="fluid">
     <linkfile src="res" dest="packages/apps/Settings/res-customisation" />
     <linkfile src="src" dest="packages/apps/Settings/src_customisation" />
