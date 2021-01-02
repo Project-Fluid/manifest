@@ -13,6 +13,8 @@
   <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,pdk-qcom" remote="LineageOS" />
   <project path="external/cldr" name="LineageOS/android_external_cldr" groups="pdk" remote="LineageOS" />
   <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" remote="LineageOS" />
+  <project path="external/boringssl" name="LineageOS/android_external_boringssl" groups="pdk" remote="LineageOS" />
+  <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" remote="LineageOS" />
 
   <!-- Build -->
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" remote="LineageOS" />
