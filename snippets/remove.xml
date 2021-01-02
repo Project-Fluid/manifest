@@ -58,6 +58,8 @@
   <!-- External -->
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/cldr" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
@@ -104,4 +106,6 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/timezone" />
+
 </manifest>

@@ -11,6 +11,8 @@
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="LineageOS" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="qcom,pdk-qcom" remote="LineageOS" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,pdk-qcom" remote="LineageOS" />
+  <project path="external/cldr" name="LineageOS/android_external_cldr" groups="pdk" remote="LineageOS" />
+  <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" remote="LineageOS" />
 
   <!-- Build -->
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" remote="LineageOS" />
@@ -108,6 +110,7 @@
   <!-- System -->
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="LineageOS" />
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="LineageOS" />
+  <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" remote="LineageOS" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="LineageOS" />
