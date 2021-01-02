@@ -11,6 +11,7 @@
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="LineageOS" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="qcom,pdk-qcom" remote="LineageOS" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,pdk-qcom" remote="LineageOS" />
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="LineageOS" />
   <project path="external/cldr" name="LineageOS/android_external_cldr" groups="pdk" remote="LineageOS" />
   <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" remote="LineageOS" />
   <project path="external/boringssl" name="LineageOS/android_external_boringssl" groups="pdk" remote="LineageOS" />
