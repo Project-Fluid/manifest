@@ -81,6 +81,7 @@
   <project path="system/vold" name="system_vold" groups="pdk" remote="fluid" />
   <project path="system/sepolicy" name="system_sepolicy" remote="fluid" />
   <project path="system/netd" name="system_netd" remote="fluid" />
+  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="fluid" />
 
   <!-- Vendor -->
   <project path="vendor/fextras" name="vendor_fextras" remote="fluid" />
