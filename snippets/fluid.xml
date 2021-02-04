@@ -47,6 +47,7 @@
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="fluid" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="fluid" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="fluid-gitlab" />
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="fluid" />
 
   <!-- Fluid -->
   <project path="fluid/official_devices" name="official_devices" revision="master" remote="fluid-devices" />
