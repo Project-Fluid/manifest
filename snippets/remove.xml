@@ -60,6 +60,7 @@
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/e2fsprogs" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
