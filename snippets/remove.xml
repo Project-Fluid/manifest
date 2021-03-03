@@ -59,6 +59,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/cldr" />
+  <remove-project name="platform/external/gptfdisk" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />

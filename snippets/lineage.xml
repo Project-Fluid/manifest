@@ -16,6 +16,7 @@
   <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" remote="LineageOS" />
   <project path="external/boringssl" name="LineageOS/android_external_boringssl" groups="pdk" remote="LineageOS" />
   <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" remote="LineageOS" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="LineageOS" />
 
   <!-- Build -->
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" remote="LineageOS" />
