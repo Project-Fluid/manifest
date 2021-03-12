@@ -46,7 +46,7 @@
   <!-- External -->
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="fluid" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="fluid" />
-  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="fluid-gitlab" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="fluid-gitlab" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="fluid" />
 
   <!-- Fluid -->
@@ -77,6 +77,8 @@
   </project>
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="fluid" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="fluid" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_faceunlockservice" remote="fluid-gitlab" />
+
 
   <!-- System -->
   <project path="system/core" name="system_core" groups="pdk" remote="fluid" />
