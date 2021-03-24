@@ -61,6 +61,8 @@
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/boringssl" />
+  <remove-project name="platform/external/toybox" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
@@ -68,8 +70,6 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/libs/systemui" />
-  <remove-project name="platform/external/boringssl" />
-  <remove-project name="platform/external/toybox" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
