@@ -58,6 +58,7 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="fluid" />
   <project path="frameworks/av" name="frameworks_av" remote="fluid" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="fluid" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="fluid" />
 
   <!-- Hardware -->
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="fluid" />
