@@ -134,6 +134,7 @@
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="LineageOS" />
   <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" remote="LineageOS" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="LineageOS" />
+  <project path="system/libufdt" name="LineageOS/android_system_libufdt" remote="LineageOS" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="LineageOS" />
