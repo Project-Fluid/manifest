@@ -39,7 +39,7 @@ mka bacon
 Contributing
 ===============
 
-To contribute to fluid you can use our gerrit (https://review.fluidos.me)
+To contribute to fluid you can use our gerrit (https://review.projectfluid.org)
 Let's imagine you haven't used gerrit, this will teach you how to use it.
 
 Clone any repo from our github, for example, settings app:
@@ -54,7 +54,7 @@ Then generate a ssh key (if you already generated one, skip this step):
 ssh-keygen -o
 ```
 
-And add your public ssh key (by default located in ~/.ssh/id_rsa.pub) to your gerrit profile (https://review.fluidos.me/settings/#SSHKeys)
+And add your public ssh key (by default located in ~/.ssh/id_rsa.pub) to your gerrit profile (https://review.projectfluid.org/settings/#SSHKeys)
 
 After that, do your changes and commit them:
 ```bash
@@ -63,6 +63,6 @@ git commit
 
 And finally, push the changes (this is an example for settings with the default fluid-11 branch, you can replace the repo part with any other repo you would push):
 ```bash
-git push "ssh://YOURUSERNAME@review.fluidos.me:29418/Project-Fluid/packages_apps_Settings" HEAD:refs/for/fluid-11
+git push "ssh://YOURUSERNAME@review.projectfluid.org:29418/Project-Fluid/packages_apps_Settings" HEAD:refs/for/fluid-11
 ```
 NOTE: If you do get an error telling you to run a command and then amend the commit, do it, then retry to push.
