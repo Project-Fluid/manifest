@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="fluid"
+           fetch="https://github.com/Project-Fluid/"
+           revision="fluid-12.1" />
+
+  <remote  name="fluid-gitlab"
+           fetch="https://gitlab.com/project-fluid/"
+           revision="fluid-12.1" />
+
+  <remote  name="fluid-devices"
+           fetch="https://github.com/Project-Fluid-Devices/"
+           revision="fluid-12.1" />
+
+  <!-- Rootdir -->
+  <project path="bionic" name="bionic" groups="pdk" remote="fluid" />
+  <project path="manifest" name="manifest" remote="fluid" />
+
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="fluid" />
+
+  <!-- Build -->
+  <project path="build/make" name="build" groups="pdk" remote="fluid" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="fluid" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/fluid/sepolicy" name="device_fluid_sepolicy" remote="fluid" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="fluid" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="fluid" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="fluid-12.1-legacy-um" remote="fluid" />
+
+  <!-- External -->
+  <project path="external/faceunlock" name="external_faceunlock" remote="fluid-gitlab" />
+
+  <!-- Fluid -->
+  <project path="fluid/official_devices" name="official_devices" revision="master" remote="fluid-devices" />
+  <project path="fluid/Project-Fluid.github.io" name="Project-Fluid.github.io" revision="master" remote="fluid" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="fluid" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fluid" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="fluid" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="fluid" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="fluid" />
+
+  <!-- Packages -->
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="fluid" />
+  <project path="packages/apps/FluidLauncher" name="packages_apps_FluidLauncher" groups="pdk-fs" remote="fluid" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="fluid" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="fluid" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="fluid" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="fluid" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="fluid" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="fluid" />
+
+  <!-- System -->
+  <project path="system/core" name="system_core" groups="pdk" remote="fluid" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="fluid" />
+  <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="fluid" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="fluid" />
+
+  <!-- Vendor -->
+  <project path="vendor/fextras" name="vendor_fextras" remote="fluid" />
+  <project path="vendor/fluid" name="vendor_fluid" remote="fluid" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="fluid-gitlab" clone-depth="1" />
+
+</manifest>
