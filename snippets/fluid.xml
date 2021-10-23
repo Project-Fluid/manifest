@@ -57,6 +57,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="fluid" />
+  <project path="packages/apps/FluidCustomisation" name="packages_apps_FluidCustomisation" remote="fluid" />
   <project path="packages/apps/FluidLauncher" name="packages_apps_FluidLauncher" groups="pdk-fs" remote="fluid" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="fluid" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="fluid" />
