@@ -24,7 +24,7 @@ repo sync --force-sync --no-tags --no-clone-bundle -j$(nproc --all)
 ```
 
 <b>Note: 
-- You must have at least 120-150GB free space on your disk 
+- You must have at least 120-150GB free space on your disk and decent specifications 
 - Basic git knowledge</b>
 
 Building Fluid
@@ -61,8 +61,8 @@ After that, do your changes and commit them:
 git commit
 ```
 
-And finally, push the changes (this is an example for settings with the default fluid-11 branch, you can replace the repo part with any other repo you would push):
+And finally, push the changes (this is an example for settings with the default fluid-12 branch, you can replace the repo part with any other repo you would push):
 ```bash
 git push "ssh://YOURUSERNAME@review.projectfluid.org:29418/Project-Fluid/packages_apps_Settings" HEAD:refs/for/fluid-12
 ```
-NOTE: If you do get an error telling you to run a command and then amend the commit, do it, then retry to push.
+<b>NOTE: If you do get an error telling you to run a command and then amend the commit, do it, then retry to push.</b>
