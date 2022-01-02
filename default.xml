@@ -1109,6 +1109,8 @@
 
   <include name="snippets/fluid-temp.xml" />
 
+  <include name="snippets/pixel-caf.xml" />
+
   <include name="snippets/proton.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
