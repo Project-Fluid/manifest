@@ -10,9 +10,6 @@
   <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk" remote="fluid-temp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="fluid-temp" />
 
-  <!-- Hardware -->
-  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="fluid-temp" />
-
   <!-- Packages -->
   <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" remote="fluid-temp" />
 
