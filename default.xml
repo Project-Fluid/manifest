@@ -1107,8 +1107,6 @@
 
   <include name="snippets/fluid.xml" />
 
-  <include name="snippets/fluid-temp.xml" />
-
   <include name="snippets/pixel-caf.xml" />
 
   <include name="snippets/proton.xml" />
