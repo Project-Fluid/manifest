@@ -83,6 +83,8 @@
   <remove-project name="platform/packages/apps/Car/SystemUpdater" />
   <remove-project name="platform/packages/apps/Car/tests" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -105,6 +107,7 @@
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
   <!-- System -->
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/tools/mkbootimg" />
