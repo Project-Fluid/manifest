@@ -91,6 +91,7 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/modules/adb" />
+  <remove-project name="platform/packages/modules/common" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
