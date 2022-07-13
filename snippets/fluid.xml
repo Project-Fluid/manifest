@@ -41,9 +41,6 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="fluid" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="fluid-12.1-legacy-um" remote="fluid" />
 
-  <!-- External -->
-  <project path="external/faceunlock" name="external_faceunlock" remote="fluid-gitlab" />
-
   <!-- Fluid -->
   <project path="fluid/official_devices" name="official_devices" revision="master" remote="fluid-devices" />
   <project path="fluid/Project-Fluid.github.io" name="Project-Fluid.github.io" revision="master" remote="fluid" />
