@@ -64,6 +64,7 @@
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Car/Calendar" />
