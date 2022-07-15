@@ -74,6 +74,7 @@
   <project path="vendor/fextras" name="vendor_fextras" remote="fluid" />
   <project path="vendor/fluid" name="vendor_fluid" remote="fluid" />
   <project path="vendor/gapps" name="vendor_gapps" remote="fluid-gitlab" clone-depth="1" />
+  <project path="vendor/pixelextras" name="vendor_pixelextras" remote="fluid-gitlab" clone-depth="1" />
   <project path="vendor/lawnicons" name="vendor_lawnicons" remote="fluid" />
 
 </manifest>
